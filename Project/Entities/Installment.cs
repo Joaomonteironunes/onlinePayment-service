@@ -11,7 +11,7 @@
         }
 
         public override string ToString() {
-            return $"{DueDate.Date} - {Amount.ToString("F2")}";
+            return $"{DueDate.ToString("d")} - R$ {Amount.ToString("F2")}";
         }
     }
 }
